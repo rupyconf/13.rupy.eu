@@ -102,6 +102,7 @@ body {
 #newsletter input {
   height: 32px;
   font-size: 22px;
+  border: 0;
   -webkit-border-radius: 0;
      -moz-border-radius: 0;
           border-radius: 0;
@@ -117,6 +118,10 @@ body {
   text-shadow: none;
   height: 42px;
   font-size: 22px;
+}
+
+#newsletter input[type=email]:invalid {
+  color: #E20031;
 }
 
 #social-networks {
