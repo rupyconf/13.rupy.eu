@@ -1,0 +1,437 @@
+body, p, h1,h2,h3,h4,h5, a {
+    font-family: 'Lato', sans-serif;
+}
+p {
+    font-weight: 300;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.nav-inner {
+  background: #464646;
+}
+
+.brand, .navbar-inverse .nav > li > a {
+    line-height: 63px;
+    font-weight: 900;
+}
+.navbar-inverse .brand {
+    max-width: 14%;
+}
+
+.nav-collapse.collapse {
+    width: 84%;
+    float: left;
+}
+
+.nav-collapse.collapse .nav {
+    width: 100%;
+}
+
+.navbar-inverse .nav > li {
+    margin-left: 4%;
+    float: left;
+}
+
+.navbar-inverse .nav > li a.button, #thanks a.button{
+    background: #F00;
+    line-height: 20px;
+    margin-top: 22px;
+    color: white;
+    padding: 10px 15px 10px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+i {
+    display: block;
+    height: 36px;
+    width: 36px;
+    right:10px;
+    margin-bottom: 6px;
+}
+
+.relativer i {
+    position: absolute;
+}
+
+.twitter {
+    background: url('../img/redcons/twitter.png');
+}
+.tumblr {
+    background: url('../img/redcons/tumblr.png');
+}
+.fb {
+    background: url('../img/redcons/face.png');
+}
+.linkedin {
+    background: url('../img/redcons/in.png');
+}
+.contact {
+    background: url('../img/redcons/contact.png');
+}
+.chat {
+    background: url('../img/redcons/chat.png');
+}
+.web {
+    background: url('../img/redcons/web.png');
+}
+
+.redcon {
+    -webkit-border-radius: 999px;
+            border-radius: 999px;
+        color: white;
+        background: red;
+        height:36px;
+        width:36px;
+        display: block;
+        font-weight: 900;
+        font-size: 11px;
+        line-height: 36px;
+        text-align: center;
+}
+
+#welcome {
+    background: #35aee7;
+}
+
+.relativer {
+    position: relative;
+}
+
+#buda_building {
+    display: block;
+    margin: 0 auto; 
+}
+
+#owl {
+    position: absolute;
+    right: 2%;
+    top: 23%;
+}
+
+#main_banner {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#description {
+    background: #464646;
+}
+
+#description p, #thanks p.main {
+    margin: 50px;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+#description p {
+    color: white;
+}
+#thanks p, #thanks  {
+    color: black;
+    margin-top:0px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#thanks img {
+    margin: 0px auto;
+    margin-right: 40px;
+    margin-bottom:40px;
+    margin-top:20px;
+}
+
+#thanks img:first-child {
+    margin: 0px auto;
+}
+
+#thanks h1 {
+    color: red;
+    font-weight: 900;
+}
+
+#speakers {
+    background: #ffcccc;
+}
+
+div.speaker {
+    width: 182px;
+    height: 182px;
+    background: no-repeat;
+}
+div.speaker:hover {
+    background-position: 0px -182px;
+}
+
+.speaker#drnic {
+    background-image: url('../img/speakers/drnic.png');
+}
+.speaker#stevek {
+    background-image: url('../img/speakers/stevek.png');
+}
+.speaker#josev {
+    background-image: url('../img/speakers/josev.png');
+}
+.speaker#zedas {
+    background-image: url('../img/speakers/zedas.png');
+}
+.speaker#charleson {
+    background-image: url('../img/speakers/charleson.png');
+}
+.speaker#jaroslava {
+    background-image: url('../img/speakers/jaroslava.png');
+}
+
+.speaker#moar {
+    background-image: url('../img/speakers/moar.png');
+    background-position: 0px -0px;
+}
+
+#speakers_icon {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#faces {
+    margin-bottom: 80px;
+}
+
+#faces .span2, #people .span2 {
+    margin-bottom: 40px;
+}
+#faces h3, #people h3 {
+    height: 24px;
+    font-weight: 600;
+    margin-top: 23px;
+    font-size: 19px;
+    line-height: 19px;
+    text-align: center;
+    color: #747474;
+}
+
+#faces hr, #place hr, #people hr  {
+    border-top: 0px;
+    border-bottom: 1px solid #6F6F6F;
+    margin-bottom: 4px;
+}
+
+#faces p, #people p {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 12px;
+    color: #9C4065;
+}
+
+#people p {
+    color: #222;
+}
+
+#agenda {
+    background: #35aee7;
+    padding-bottom: 80px;
+}
+#agenda caption {
+    line-height:60px;
+    font-size: 36px;
+    background: #464646;
+    color: white;
+}
+#agenda table {
+    margin-top: 50px;
+}
+
+#agenda tr {
+    background: #FFF;
+    cursor: pointer;
+}
+
+#agenda tr.active {
+    color: #F00;
+}
+
+#agenda td {
+    border-bottom: 2px solid #35AEE7;
+    padding: 0;
+}
+
+#agenda td a {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+#agenda tr:hover {
+    background: #ffcccc;
+}
+
+#agenda tr h5 {
+    margin-bottom: -5px;
+    margin-top: 4px;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+#agenda tr.active h5 {
+    margin-top: 9px;
+}
+
+#agenda tr td:first-child h5 {
+    font-size: 29px;
+    font-weight: 300;
+    margin: 10px;
+}
+#clock {
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: 50px;
+    display: block;
+}
+
+#agenda_modal {
+    border-radius:0px;
+    padding: 30px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border:none;
+}
+
+.modal-header .close {
+    font-size: 40px;
+    line-height: 34px;
+}
+
+.modal-body {
+    padding: 9px 15px;
+    border-bottom: 1px solid #EEE;
+}
+
+#agenda_modal h3 {
+    color: #F00;
+    font-size: 33px;
+    line-height: 37px;
+}
+
+#agenda_modal .about {
+    margin-top: 20px;
+}
+
+#place {
+    background: #c3c3c1 url('../img/mapa.jpg') no-repeat right top;
+    padding-bottom: 100px;
+}
+
+#place h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #F00;
+}
+
+#place *.left {
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+#place .span3 .row-fluid {
+    margin-top: 13px;
+}
+#place .span3 p {
+    margin-top: 13px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+#place_icon {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+}
+
+#place_info {
+    margin-bottom: 150px;
+}
+
+#place_info h2 {
+    font-weight: 900;
+    color: #F00;
+}
+
+#place_info h4 {
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 26px;
+}
+
+#places_sleep {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+}
+
+#travel, #thanks_icon, #people_icon {
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+#thanks {
+    background: #FFF;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+
+#thanks p.main {
+    margin: 50px;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #666;
+}
+
+#people {
+    background: #e0e0e0;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+
+footer {
+    background: #464646;
+    padding: 20px 0px;
+}
+
+footer span.left {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: 6px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+footer i.left {
+    margin-left: 8px;
+}
+
+@media (max-width: 979px) {
+    .brand, .navbar-inverse .nav > li > a {
+        line-height: 24px;
+    }
+ }
+
+@media (max-width: 768px) {
+    
+}
