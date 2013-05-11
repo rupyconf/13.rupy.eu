@@ -103,7 +103,7 @@ i {
 
 #buda_building {
     display: block;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 #owl {
@@ -166,8 +166,8 @@ div.speaker:hover {
     background-position: 0px -182px;
 }
 
-.speaker#drnic {
-    background-image: url('../img/speakers/drnic.png');
+.speaker#theo {
+    background-image: url('../img/speakers/theo.jpg');
 }
 .speaker#stevek {
     background-image: url('../img/speakers/stevek.png');
@@ -433,5 +433,5 @@ footer i.left {
  }
 
 @media (max-width: 768px) {
-    
+
 }
