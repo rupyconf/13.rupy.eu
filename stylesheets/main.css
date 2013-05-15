@@ -75,6 +75,9 @@ i {
 .web {
     background: url('../images/redcons/web.png');
 }
+.google {
+    background: url('../img/redcons/google.png');
+}
 
 .redcon {
     -webkit-border-radius: 999px;
@@ -109,9 +112,17 @@ i {
     top: 23%;
 }
 
+.modal-header {
+    margin-bottom: 20px;
+}
+
+.modal-header h4 {
+    font-size: 21px;
+}
+
 #main_banner {
-    margin-top: 50px;
-    margin-bottom: 30px;
+    display: block;
+    margin: 50px auto;
 }
 
 #description {
@@ -268,7 +279,7 @@ div.speaker:hover {
     background: #ffcccc;
 }
 
-#agenda tr h5 {
+#agenda tr h5{
     margin-bottom: -5px;
     margin-top: 4px;
     font-weight: 900;
@@ -279,10 +290,30 @@ div.speaker:hover {
     margin-top: 9px;
 }
 
-#agenda tr td:first-child h5 {
+#agenda tr td.date h5, .agenda tr td.date h5 {
     font-size: 29px;
     font-weight: 300;
     margin: 10px;
+}
+
+.agenda tr h5 {
+    margin-bottom: -5px;
+    margin-top: 4px;
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.agenda {
+    margin-top: 19px;
+}
+.agenda tr {
+    background: #FCC;
+    border-color: none;
+    border-bottom: 0px;
+    margin-bottom: 1px;
+    border-color: rgba(0, 0, 0, 0);
+    display: block;
 }
 #clock {
     margin: 0 auto;
