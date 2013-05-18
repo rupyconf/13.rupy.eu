@@ -429,5 +429,13 @@
       <script src="javascripts/smoothscroll.js"></script>
       <script src="javascripts/bootstrap.min.js"></script>
 
+      <script>
+        var speaker = $('#speakers a[href$="' + window.location.hash + '"][data-toggle="modal"]');
+
+        if (speaker.length) {
+          speaker.trigger('click');
+        };
+      </script>
+
     </body>
   </html>
