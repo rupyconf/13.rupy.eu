@@ -415,5 +415,11 @@
       <script src="javascripts/smoothscroll.js"></script>
       <script src="javascripts/bootstrap.min.js"></script>
 
+      <script>
+        var hash_tag = location.href.slice(location.href.indexOf('#'));
+
+        $('#speakers a[href$="' + hash_tag + '"][data-toggle="modal"]').trigger('click');
+      </script>
+
     </body>
   </html>
