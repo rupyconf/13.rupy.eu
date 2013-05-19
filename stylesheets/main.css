@@ -1,3 +1,7 @@
+body {
+  padding-top: 83px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+
 p {
     font-weight: 300;
 }
@@ -116,8 +120,35 @@ i {
     margin-bottom: 20px;
 }
 
+.modal-header .close {
+    font-size: 40px;
+    line-height: 34px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  line-height: 30px;
+}
+
 .modal-header h4 {
     font-size: 21px;
+}
+
+.modal-body {
+  padding: 9px 15px;
+  border-bottom: 1px solid #EEE;
+  overflow: auto;
+}
+
+.modal-body .speaker-avatar {
+  width: 30%;
+}
+
+.modal-body .speaker-avatar img {
+  border-radius: 500px;
+}
+
+.modal-body .justify-text {
 }
 
 #main_banner {
@@ -330,16 +361,6 @@ div.speaker:hover {
     border:none;
 }
 
-.modal-header .close {
-    font-size: 40px;
-    line-height: 34px;
-}
-
-.modal-body {
-    padding: 9px 15px;
-    border-bottom: 1px solid #EEE;
-}
-
 #agenda_modal h3 {
     color: #F00;
     font-size: 33px;
@@ -348,6 +369,19 @@ div.speaker:hover {
 
 #agenda_modal .about {
     margin-top: 20px;
+}
+
+.agenda_modal {
+  border-radius: 0px;
+  padding: 30px;
+  box-shadow: none;
+  border: none;
+}
+
+.agenda_modal h3 {
+  color: #F00;
+  font-size: 33px;
+  line-height: 37px;
 }
 
 #place {
