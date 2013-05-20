@@ -450,9 +450,9 @@
        </div>
       </div>
 
-      <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-      <script src="javascripts/smoothscroll.js"></script>
+      <script src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
       <script src="javascripts/bootstrap.min.js"></script>
+      <script src="javascripts/smoothscroll.js"></script>
 
       <script>
         var speaker = $('#speakers a[href$="' + window.location.hash + '"][data-toggle="modal"]');
@@ -460,6 +460,19 @@
         if (speaker.length) {
           speaker.trigger('click');
         };
+      </script>
+
+      <script>
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-8394595-1']);
+        _gaq.push(['_setDomainName', 'rupy.eu']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
       </script>
 
     </body>
