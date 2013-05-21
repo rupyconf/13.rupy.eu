@@ -224,11 +224,6 @@ div.speaker:hover {
     background-image: url('../images/speakers/jaroslava.png');
 }
 
-.speaker#moar {
-    background-image: url('../images/moar.png');
-    background-position: 0 0;
-}
-
 #speakers_icon {
     display: block;
     margin: 0 auto;
@@ -277,8 +272,6 @@ div.speaker:hover {
     padding-top:80px;
     padding-bottom: 80px;
 }
-
-#people .member:nth-child(6n+1) { margin: 0; }
 
 #agenda {
     background: #35aee7;
@@ -490,12 +483,54 @@ footer i.left {
     margin-left: 8px;
 }
 
+@media (min-width: 1200px) {
+  #people .member:nth-child(6n+1) { margin: 0; }
+}
+
+@media (min-width: 979px) and (max-width: 1200px) {
+  .member {
+    height: 260px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .member {
+    height: 235px;
+  }
+}
+
 @media (max-width: 979px) {
+    body {
+      padding-top: 0;
+    }
+
+    .navbar-fixed-top {
+      margin-bottom: 0;
+    }
     .brand, .navbar-inverse .nav > li > a {
         line-height: 24px;
+    }
+
+    .navbar-inverse .nav > li a.button {
+        margin-top: 0;
     }
  }
 
 @media (max-width: 768px) {
+  body > .row-fluid {
+    margin-right: -20px;
+    margin-left: -20px;
+    width: auto;
+  }
 
+  .speaker-pic-link, img.speaker {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+
+  #place_info {
+    text-align: center;
+  }
 }
