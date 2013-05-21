@@ -272,6 +272,14 @@ div.speaker:hover {
     color: #222;
 }
 
+#people {
+    background: #e0e0e0;
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+
+#people .member:nth-child(6n+1) { margin: 0; }
+
 #agenda {
     background: #35aee7;
     padding-bottom: 80px;
@@ -461,12 +469,6 @@ div.speaker:hover {
     line-height: 40px;
     text-align: center;
     color: #666;
-}
-
-#people {
-    background: #e0e0e0;
-    padding-top:80px;
-    padding-bottom: 80px;
 }
 
 footer {
