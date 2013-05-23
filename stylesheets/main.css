@@ -485,17 +485,29 @@ footer i.left {
 
 @media (min-width: 1200px) {
   #people .member:nth-child(6n+1) { margin: 0; }
+
+  #faces li {
+    height: 280px;
+  }
 }
 
 @media (min-width: 979px) and (max-width: 1200px) {
   .member {
     height: 260px;
   }
+
+  #faces li {
+    height: 250px;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
   .member {
     height: 235px;
+  }
+
+  #faces li {
+    height: 230px;
   }
 }
 
