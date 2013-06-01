@@ -484,7 +484,7 @@ footer i.left {
 }
 
 @media (min-width: 1200px) {
-  #people .member:nth-child(6n+1) { margin: 0; }
+  #faces li:nth-child(6n+1), #people .member:nth-child(6n+1) { margin: 0; }
 
   #faces li {
     height: 280px;
