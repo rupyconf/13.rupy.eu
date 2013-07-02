@@ -699,15 +699,8 @@ h3.icon-heading.travel {
 }
 
 #sponsors .logo a img {
-  padding: 20px;
-}
-
-#sponsors .logo.span12 a img {
-  padding: 20px 90px;
-}
-
-#sponsors .logo.span6 a img, #sponsors .logo.span3 a img {
-  padding: 20px 40px;
+  width: 100%;
+  height: 100%;
 }
 
 #sponsors .logo a img, #sponsors .sponsor-description p {
@@ -727,10 +720,10 @@ h3.icon-heading.travel {
 
 #sponsors .sponsor-section h4 {
   position: absolute;
-  left: 20px;
-  top: 14px;
+  left: 7px;
+  top: 7px;
   margin: 0;
-  font-size: 13px;
+  font-size: 11.5px;
   line-height: 13px;
   text-transform: uppercase;
 }
@@ -851,7 +844,7 @@ h3.icon-heading.travel {
 .btn-area {
   text-align: left;
   display: inline-table;
-  max-width: 510px;
+  width: 510px;
 }
 
 .btn-area:hover, .btn-area:focus {
