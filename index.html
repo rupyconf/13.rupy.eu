@@ -1743,28 +1743,11 @@
             $('#speakers')[0].scrollIntoView(true);
             $('body[data-spy="scroll"]').scrollspy('refresh');
 
-            // if (type === 'talk' || type === 'workshop') {
-            //   speaker.find('.tab-pane.active').removeClass('active');
-            //   speaker.find('.tab-pane.' + type).addClass('active');
-            // }
-            //
             speaker.modal();
           };
         }
 
-        // $('a[data-toggle="modal"]').bind('click', function() {
-        //   var href = $(this).attr('href');
-        //
-        //   if (history.pushState) {
-        //     history.pushState(null, null, href);
-        //   } else {
-        //     window.location.hash = href;
-        //   }
-        // })
-
-        $('.modal').on('click.modal.data-api', function(event) {
-          // console.log($('.person-navigation li.active a').data('target'));
-
+        $('.modal').on('show', function(event) {
           if (history.pushState) {
             history.pushState(null, null, '#' + this.id);
           } else {
