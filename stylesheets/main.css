@@ -532,7 +532,7 @@ h3.icon-heading.travel {
 
 #venue {
   position: relative;
-  background: #5A2991;
+  background: #6A4195;
   color: #C3C3C3;
 }
 
@@ -547,6 +547,7 @@ h3.icon-heading.travel {
 }
 
 #venue h4 {
+  color: #FFFFFF;
   font-size: 32px;
 }
 
@@ -580,7 +581,7 @@ h3.icon-heading.travel {
 }
 
 #venue .accomodation-price em {
-  color: #FF0000;
+  color: #FFFFFF;
   font-style: normal;
   font-weight: 700;
 }
@@ -622,10 +623,10 @@ h3.icon-heading.travel {
   z-index: 2;
   top: 0;
   left: 0;
-  background: rgba(90,41,145,0.7) url('../images/map-canvas-gradient-for-ie9.svg');
-  background: rgba(90,41,145,0.7) -webkit-radial-gradient(center, ellipse farthest-side, rgba(90,41,145,0.3) 60% , rgba(90,41,145,1) 100%);
-  background: rgba(90,41,145,0.7) -moz-radial-gradient(ellipse farthest-side at center, rgba(90,41,145,0.3) 60% , rgba(90,41,145,1) 100%);
-  background: rgba(90,41,145,0.7) radial-gradient(ellipse farthest-side at center, rgba(90,41,145,0.3) 60% , rgba(90,41,145,1) 100%);
+  background: rgba(106,65,149,0.7) url('../images/map-canvas-gradient-for-ie9.svg');
+  background: rgba(106,65,149,0.7) -webkit-radial-gradient(center, ellipse farthest-side, rgba(106,65,149,0.3) 60% , rgba(106,65,149,1) 100%);
+  background: rgba(106,65,149,0.7) -moz-radial-gradient(ellipse farthest-side at center, rgba(106,65,149,0.3) 60% , rgba(106,65,149,1) 100%);
+  background: rgba(106,65,149,0.7) radial-gradient(ellipse farthest-side at center, rgba(106,65,149,0.3) 60% , rgba(106,65,149,1) 100%);
 }
 
 #map-canvas, #venue-map, #map-canvas-overlay {
@@ -699,15 +700,9 @@ h3.icon-heading.travel {
 }
 
 #sponsors .logo a img {
-  padding: 20px;
-}
-
-#sponsors .logo.span12 a img {
-  padding: 20px 90px;
-}
-
-#sponsors .logo.span6 a img, #sponsors .logo.span3 a img {
-  padding: 20px 40px;
+  max-width: 100%;
+  height: auto;
+  max-height: 85px;
 }
 
 #sponsors .logo a img, #sponsors .sponsor-description p {
@@ -727,10 +722,10 @@ h3.icon-heading.travel {
 
 #sponsors .sponsor-section h4 {
   position: absolute;
-  left: 20px;
-  top: 14px;
+  left: 7px;
+  top: 7px;
   margin: 0;
-  font-size: 13px;
+  font-size: 11.5px;
   line-height: 13px;
   text-transform: uppercase;
 }
@@ -851,7 +846,7 @@ h3.icon-heading.travel {
 .btn-area {
   text-align: left;
   display: inline-table;
-  max-width: 510px;
+  width: 510px;
 }
 
 .btn-area:hover, .btn-area:focus {
@@ -977,7 +972,7 @@ h3.icon-heading.travel {
     margin-left: -30px;
   }
 }
-
+/*
 @media (min-width: 768px) and (max-width: 979px) {
   body {
     padding: 0;
@@ -1004,4 +999,4 @@ h3.icon-heading.travel {
   html, body {
     padding: 0;
   }
-}
+}*/
