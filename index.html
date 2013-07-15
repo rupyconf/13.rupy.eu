@@ -4,12 +4,12 @@
     <title>RuPy 2013 Conference: Python, Ruby, JavaScript, Clojure</title>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <meta name="description" content="RuPy 2013 | Strongly Dynamic Conference. On the Edge.">
     <meta name="author" content="RuPyConf">
 
     <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-    <link rel="stylesheet" href="stylesheets/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap-desktop-only.min.css">
     <link rel="stylesheet" href="stylesheets/main.css">
 
     <script src="https://use.typekit.net/ney1bjw.js"></script>
@@ -410,7 +410,7 @@
           </a>
         </div>
 
-        <small class="footnote text-center"><sup>*</sup>For details about proposals selection and voting, check <a href="http://blog.rupy.eu/post/52715634922/call-for-proposals">this post</a> on <a href="http://blog.rupy.eu">our blog</a>.</small>
+        <small class="footnote text-center"><sup>*</sup>For details about proposals selection and voting, check <a href="http://blog.rupy.eu/post/52715634922/call-for-proposals">this post</a> on our blog.</small>
 
       </div>
     </section>
@@ -446,6 +446,19 @@
           <span> Have a look on who they are and what they do.</span>
         </p>
 
+        <h3>Sponsors</h3>
+
+        <div class="sponsor-section row">
+          <div class="logo logo-small span2">
+            <a href="http://phraseapp.com"><span><img src="images/logos/phraseapp.svg" alt="PhraseApp"></span></a>
+            <h4>Partner</h4>
+          </div>
+          <div class="logo logo-small span2">
+            <a href="https://appsignal.com/"><span><img src="images/logos/appsignal.svg" alt="AppSignal"></span></a>
+            <h4>Partner</h4>
+          </div>
+        </div>
+
         <div class="btn-section text-center">
           <a href="https://dl.dropboxusercontent.com/u/7622715/rupy-2013-brochure.pdf" class="btn-area">
             <span class="icon icon-large become-sponsor"></span>
@@ -453,7 +466,7 @@
               <span class="caption">Become a sponsor</span>
               <span>
                 RuPy gathers top notch programmers from all over the world. Take this opportunity to promote your product, advertise your company and recruit.
-            </span>
+              </span>
             </p>
           </a>
         </div>
@@ -1542,28 +1555,11 @@
             $('#speakers')[0].scrollIntoView(true);
             $('body[data-spy="scroll"]').scrollspy('refresh');
 
-            // if (type === 'talk' || type === 'workshop') {
-            //   speaker.find('.tab-pane.active').removeClass('active');
-            //   speaker.find('.tab-pane.' + type).addClass('active');
-            // }
-            //
             speaker.modal();
           };
         }
 
-        // $('a[data-toggle="modal"]').bind('click', function() {
-        //   var href = $(this).attr('href');
-        //
-        //   if (history.pushState) {
-        //     history.pushState(null, null, href);
-        //   } else {
-        //     window.location.hash = href;
-        //   }
-        // })
-
-        $('.modal').on('click.modal.data-api', function(event) {
-          // console.log($('.person-navigation li.active a').data('target'));
-
+        $('.modal').on('show', function(event) {
           if (history.pushState) {
             history.pushState(null, null, '#' + this.id);
           } else {
