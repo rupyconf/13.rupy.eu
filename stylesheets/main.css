@@ -667,12 +667,19 @@ h3.icon-heading.travel {
   margin-bottom: 20px;
 }
 
+#sponsors .sponsor-section {
+    text-align: center;
+}
+
 #sponsors .sponsor-section + h3 {
   margin-top: 30px;
 }
 
 #sponsors .logo {
   height: 250px;
+  clear: both;
+  float: none;
+  display: inline-block;
 }
 
 #sponsors .logo.logo-small {
