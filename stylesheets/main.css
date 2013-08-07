@@ -651,38 +651,48 @@ h3.icon-heading.travel {
 }
 
 #sponsors {
-  background: #FFFFFF;
+  background: #DCD7D4;
 }
 
 #sponsors h3 {
   border-top: 1px solid #363636;
-  font-size: 33px;
+  font-size: 32px;
   line-height: 100%;
   margin: 0;
   padding: 45px 0 50px 0;
   text-align: center;
 }
 
-#sponsors .sponsor-section:not(:last-of-type) {
-  margin-bottom: 20px;
-}
-
-#sponsors .sponsor-section {
-    text-align: center;
-}
-
-#sponsors .sponsor-section + h3 {
+#sponsors .row-sponsors + h3 {
   margin-top: 30px;
 }
 
 #sponsors .logo {
-  height: 250px;
-  float: none;
-  display: inline-block;
+  height: 270px;
 }
 
 #sponsors .logo.logo-small {
   height: 110px;
+}
+
+#sponsors .logo h4, #sponsors .logo.diamond h4, #sponsors .logo.diamond p, #sponsors .logo.bronze h4, #sponsors .logo.party h4 {
+  background: #FF0000;
+}
+
+#sponsors .logo.diamond .sponsor-description {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB2aWV3Qm94PSIwIDAgMzAwIDM0MyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNaW4gbWVldCI+PHBvbHlnb24gZmlsbD0iI2YwMCIgcG9pbnRzPSIwLDE3MSAxNTAsODYgMzAwLDAgMzAwLDE3MSAzMDAsMzQzIDE1MCwyNTciLz48L3N2Zz4=);
+}
+
+#sponsors .logo.gold h4, #sponsors .logo.gold p, #sponsors .logo.supporter h4 {
+  background: #6A4195;
+}
+
+#sponsors .logo.gold .sponsor-description {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB2aWV3Qm94PSIwIDAgMzAwIDM0MyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNaW4gbWVldCI+PHBvbHlnb24gZmlsbD0iIzZBNDE5NSIgcG9pbnRzPSIwLDE3MSAxNTAsODYgMzAwLDAgMzAwLDE3MSAzMDAsMzQzIDE1MCwyNTciLz48L3N2Zz4=);
+}
+
+#sponsors .logo.silver h4, #sponsors .logo.supporter h4 {
+  background: #35AEE7;
 }
 
 #sponsors .logo a {
@@ -703,35 +713,63 @@ h3.icon-heading.travel {
 #sponsors .logo a span {
   display: table-cell;
   vertical-align: middle;
+  padding: 0 20px;
 }
 
-#sponsors .logo a img {
-  max-width: 100%;
-  height: auto;
+#sponsors .logo.span12 a span {
+  padding: 60px 125px;
 }
 
-#sponsors .logo a img, #sponsors .sponsor-description p {
+#sponsors .logo.span6 a span, #sponsors .logo.span3 a span {
+  padding: 20px 40px;
+}
+
+#sponsors .logo a img, #sponsors .sponsor-description p, #sponsors .row-sponsors h4 {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
 
-#sponsors .sponsor-description p {
-  color: #FFFFFF;
-  padding: 15px;
+#sponsors .logo.span2 a span img {
+  max-height: 75px;
 }
 
-#sponsors .sponsor-section div[class*="span"] {
+#sponsors .logo.span3 a span img {
+  max-height: 120px;
+}
+
+#sponsors .row-sponsors:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+#sponsors .row-sponsors div[class*="span"] {
   position: relative;
 }
 
-#sponsors .sponsor-section h4 {
+#sponsors .row-sponsors div[class*="span"]:not(.sponsor-description) {
+  margin-top: 20px;
+}
+
+#sponsors .row-sponsors div[class*="span"] > .row-sponsors:first-of-type > div[class*="span"] {
+  margin-top: 0;
+}
+
+#sponsors .row-sponsors + h3 {
+  margin-top: 50px;
+}
+
+#sponsors .row-sponsors h4 {
   position: absolute;
-  left: 7px;
-  top: 7px;
+  left: 0;
+  top: -20px;
   margin: 0;
-  font-size: 11.5px;
-  line-height: 13px;
+  padding-top: 1px;
+  color: #FFFFFF;
+  font-size: 10.5px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -739,34 +777,37 @@ h3.icon-heading.travel {
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB2aWV3Qm94PSIwIDAgMzAwIDM0MyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNaW4gbWVldCI+PHBvbHlnb24gZmlsbD0iIzM2MzYzNiIgcG9pbnRzPSIwLDE3MSAxNTAsODYgMzAwLDAgMzAwLDE3MSAzMDAsMzQzIDE1MCwyNTciLz48L3N2Zz4=)
               no-repeat 1px center;
   padding-left: 20px;
-  margin-left: -20px;
+  margin: -20px 0 0 -20px;
+  height: 290px;
 }
 
 #sponsors .sponsor-description p {
   background: #363636;
   margin: 0;
+  color: #FFFFFF;
+  padding: 15px;
 }
 
 #sponsors .supporter-list {
-  padding: 0 120px;
+  padding: 0 30px;
 }
 
 #sponsors .supporter-list li {
-  text-transform: uppercase;
   padding: 0;
-  font-weight: 700;
-  font-size: 18px
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 110%;
 }
 
 #sponsors .supporter-list li:not(:last-of-type):after {
   content: '\A0\2022\A0';
-  color: #FF0000;
+  color: #FFFFFF;
   font-weight: 700;
   vertical-align: middle;
 }
 
 #team {
-  background: #C3C3C3
+  background: #FFFFFF;
 }
 
 .person a, .person a:hover, .person a:focus {
