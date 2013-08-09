@@ -806,6 +806,38 @@ h3.icon-heading.travel {
   vertical-align: middle;
 }
 
+#sponsors .row-sponsors .logo.redhat a {
+  clear: both;
+  text-align: center;
+  height: 50%;
+  display: block;
+}
+
+#sponsors .row-sponsors .logo.redhat a.openshift span {
+  padding-left: 100px;
+}
+
+#sponsors .row-sponsors .logo.redhat a span {
+    padding: 30px 40px;
+}
+
+#sponsors .row-sponsors .logo.redhat a span,
+#sponsors .row-sponsors .logo.redhat a span img {
+}
+
+#sponsors .row-sponsors .logo.redhat a span img {
+    display: inline-block;
+    max-width: 270px;
+    max-height: 135px;
+    margin: auto;
+}
+
+#sponsors .row-sponsors .logo.redhat .sponsor-description {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
 #team {
   background: #FFFFFF;
 }
@@ -1021,7 +1053,7 @@ h3.icon-heading.travel {
   #faces li {
     height: 250px;
   }
-}
+
 /*
 @media (min-width: 768px) and (max-width: 979px) {
   body {
