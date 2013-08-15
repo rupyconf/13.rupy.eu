@@ -539,7 +539,6 @@ h3.icon-heading.travel {
 #venue > .container {
   position: relative;
   z-index: 50;
-  padding-bottom: 635px; /* remove it after returning accomodation and travel info */
 }
 
 #venue h2.venue {
@@ -548,13 +547,17 @@ h3.icon-heading.travel {
 
 #venue h4 {
   color: #FFFFFF;
-  font-size: 32px;
+  font-size: 28px;
 }
 
 #venue h4 + p {
   margin-top: 25px;
   padding-top: 25px;
   border-top: 1px solid #363636;
+}
+
+#venue .accomodation-tip {
+    margin-bottom: 35px;
 }
 
 #venue .accomodation-info {
