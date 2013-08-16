@@ -841,6 +841,14 @@ h3.icon-heading.travel {
     left: 300px;
 }
 
+#sponsors .row-sponsors .logo.double a {
+    height: auto;
+}
+
+#sponsors .row-sponsors .logo.double a.rubyjobs img {
+    height: 58px;
+}
+
 #team {
   background: #FFFFFF;
 }
