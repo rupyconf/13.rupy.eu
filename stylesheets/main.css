@@ -129,6 +129,15 @@
   top: 89px;
 }
 
+.highline > a {
+  background: #FF0000;
+  padding: 10px 38px;
+  margin-left: 46px;
+}
+.highline > a:hover {
+  text-decoration: none; 
+}
+
 .modal {
   width: 660px;
   margin-left: -330px;
