@@ -135,7 +135,7 @@
   margin-left: 46px;
 }
 .highline > a:hover {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 .modal {
@@ -703,7 +703,7 @@ h3.icon-heading.travel {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHNoYXBlLXJlbmRlcmluZz0iZ2VvbWV0cmljUHJlY2lzaW9uIiB2aWV3Qm94PSIwIDAgMzAwIDM0MyIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pbllNaW4gbWVldCI+PHBvbHlnb24gZmlsbD0iIzZBNDE5NSIgcG9pbnRzPSIwLDE3MSAxNTAsODYgMzAwLDAgMzAwLDE3MSAzMDAsMzQzIDE1MCwyNTciLz48L3N2Zz4=);
 }
 
-#sponsors .logo.silver h4, #sponsors .logo.supporter h4 {
+#sponsors .logo.silver h4, #sponsors .logo.supporter h4, #sponsors .logo.bronze h4 {
   background: #35AEE7;
 }
 
