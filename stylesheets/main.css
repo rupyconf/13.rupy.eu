@@ -1075,6 +1075,29 @@ h3.icon-heading.travel {
     height: 250px;
   }
 
+#coc h3 {
+    border-top: 1px solid #363636;
+    text-align: center;
+    font-size: 32px;
+    padding: 45px 0 50px 0;
+}
+
+#coc h4 {
+    text-align: center;
+    border-bottom: 1px solid #E20031;
+    height: 25px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+#coc h4:after,
+#coc h4:before {
+    content: '\0000a0 \0000a0';
+}
+#coc h4:first-line {
+    background-color: #fff;
+}
+
 /*
 @media (min-width: 768px) and (max-width: 979px) {
   body {
