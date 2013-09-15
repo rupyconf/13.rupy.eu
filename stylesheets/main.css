@@ -481,10 +481,11 @@ h3.icon-heading.travel {
 #agenda table {
   width: 100%;
   margin: 0;
-  font-size: 34px;
+  font-size: 15px;
   border-collapse: separate;
   border-spacing: 0 2px;
   margin-bottom: -2px;
+  text-transform: uppercase;
 }
 
 #agenda table.table-hover tbody tr:hover > td,
@@ -492,24 +493,37 @@ h3.icon-heading.travel {
   background-color: #FFCCCC;
 }
 
-#agenda table tr, #agenda table caption {
+#agenda table tr,
+#agenda table caption {
   height: 65px;
+}
+
+#agenda table caption,
+#agenda table td:first-of-type,
+#agenda table tr.break td:first-of-type {
+    font-size: 34px;
+}
+
+#agenda table td:first-of-type {
+    text-align: right;
+}
+
+#agenda table tr:hover td {
+    background-color: #ffcccc;
+}
+
+#agenda table tr:hover td:nth-child(2) {
+    cursor: pointer;
+}
+
+#agenda table tr.break {
+    color: red;
 }
 
 #agenda table th {
   padding-left: 25px;
   font-weight: 300;
   width: 85px;
-}
-
-#agenda table td:first-of-type {
-  font-size: 12px;
-  line-height: 100%;
-  text-transform: uppercase;
-}
-
-#agenda table td:first-line, #agenda table td cite {
-  font-weight: 700;
 }
 
 #agenda table td cite {
@@ -537,6 +551,19 @@ h3.icon-heading.travel {
 
 #agenda table tr.without-speaker {
   color: #FF0000;
+}
+
+#agenda .double {
+    width: 49%;
+    display: inline-block;
+}
+
+#agenda .double p {
+    margin: 0;
+}
+
+#agenda .author {
+    font-size: 12px;
 }
 
 #venue {
