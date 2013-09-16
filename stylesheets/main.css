@@ -574,7 +574,15 @@ h3.icon-heading.travel {
 }
 
 #agenda .author {
-    font-size: 12px;
+    font-size: 13px;
+}
+
+#agenda p {
+  margin: 12px 0 6px;
+}
+
+#agenda td p:first-child {
+  font-weight: bold;
 }
 
 #venue {
