@@ -488,6 +488,17 @@ h3.icon-heading.travel {
   text-transform: uppercase;
 }
 
+#agenda .friday .span6 {
+    margin: auto;
+    float: none;
+}
+
+#agenda .friday,
+#agenda .saturday,
+#agenda .sunday {
+    margin-top: 50px;
+}
+
 #agenda table.table-hover tbody tr:hover > td,
 #agenda table.table-hover tbody tr:hover > th {
   background-color: #FFCCCC;
@@ -501,7 +512,7 @@ h3.icon-heading.travel {
 #agenda table caption,
 #agenda table td:first-of-type,
 #agenda table tr.break td:first-of-type {
-    font-size: 34px;
+    font-size: 29px;
 }
 
 #agenda table td:first-of-type {
