@@ -1143,6 +1143,32 @@ h3.icon-heading.travel {
     background-color: #fff;
 }
 
+.gist .gist-file {
+    border: 0 !important;
+}
+.gist .gist-data {
+    background-color: #6A4195 !important;
+    color: #C3C3C3 !important;
+}
+.gist .gist-data h1 {
+    color: #FF0000;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    clear: both;
+}
+.gist .gist-data h1 ~ div {
+    width: 350px;
+    margin: 15px;
+    min-height: 200px;
+    float: left;
+}
+.gist .gist-data h2 {
+    color: #FFFFFF !important;
+    font-size: 28px;
+    border-bottom: 1px solid #363636 !important;
+}
+
 /*
 @media (min-width: 768px) and (max-width: 979px) {
   body {
