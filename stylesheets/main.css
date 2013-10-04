@@ -488,6 +488,15 @@ h3.icon-heading.travel {
   text-transform: uppercase;
 }
 
+#agenda .pre-events .span6 {
+    margin: auto;
+    float: none;
+}
+
+#agenda .pre-events a {
+    text-decoration: underline;
+}
+
 #agenda .friday .span6 {
     margin: auto;
     float: none;
