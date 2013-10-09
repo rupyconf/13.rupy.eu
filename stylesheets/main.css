@@ -658,6 +658,10 @@ h3.icon-heading.travel {
   padding-bottom: 475px;
 }
 
+#venue .container ~ .no-padding-bottom {
+  padding-bottom: 0px;
+}
+
 #venue h3.icon-heading:not(:first-of-type) {
   margin-top: 75px;
 }
