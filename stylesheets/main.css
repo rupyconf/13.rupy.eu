@@ -513,9 +513,12 @@ h3.icon-heading.travel {
   background-color: #FFCCCC;
 }
 
-#agenda table tr,
-#agenda table caption {
+#agenda table tr {
   height: 106px;
+}
+
+#agenda table caption {
+  height: 65px;
 }
 
 #agenda table caption,
