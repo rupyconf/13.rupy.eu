@@ -513,7 +513,10 @@ h3.icon-heading.travel {
   background-color: #FFCCCC;
 }
 
-#agenda table tr,
+#agenda table tr {
+  height: 106px;
+}
+
 #agenda table caption {
   height: 65px;
 }
@@ -656,6 +659,10 @@ h3.icon-heading.travel {
 #venue .container ~ .container {
   top: 475px;
   padding-bottom: 475px;
+}
+
+#venue .container ~ .no-padding-bottom {
+  padding-bottom: 0px;
 }
 
 #venue h3.icon-heading:not(:first-of-type) {
@@ -1129,6 +1136,7 @@ h3.icon-heading.travel {
   #faces li {
     height: 250px;
   }
+}
 
 #coc h3 {
     text-align: center;
