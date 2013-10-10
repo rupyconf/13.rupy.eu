@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "nimbus-sans",sans-serif;
+  line-height: 32px;
+}
+
+body {
+  background: #DCD7D4;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #f30;
+}
+
+a:hover {
+  color: #f90;
+}
+
+p, li {
+  font-size: 18px;
+}
+
+#main {
+  margin: auto;
+  width: 800px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#main h1 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+
+#main p {
+  margin: 20px 0;
+}
+
+#main ul, #main ol {
+  margin: 20px;
+}
+
+#main li {
+}
+
+#main ul li {
+  list-style-type: square;
+}
+
+#nav {
+  padding: 10px;
+}
