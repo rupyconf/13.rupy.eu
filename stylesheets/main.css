@@ -488,6 +488,19 @@ h3.icon-heading.travel {
   text-transform: uppercase;
 }
 
+#agenda .note {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#agenda .note:first-child {
+    margin-top: 0;
+}
+
+#agenda .note p {
+    text-align: center;
+}
+
 #agenda .pre-events .span6 {
     margin: auto;
     float: none;
@@ -1214,3 +1227,4 @@ h3.icon-heading.travel {
     padding: 0;
   }
 }*/
+
